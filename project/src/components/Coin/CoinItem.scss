@@ -1,0 +1,21 @@
+.coin-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--c-white);
+  box-shadow: 0px 0px 1px var(--c-table-hover);
+  border-bottom: 2px solid var(--c-border-bottom) ;
+  padding: .7rem 1rem;
+  font-weight: 700;
+ color: var(--c-text-color);
+  .img-symbol {
+    display: flex;
+    align-items: center;
+    img {
+      height: 40px;
+      margin-right: 8px;
+      width: auto;
+    }
+
+  }
+}

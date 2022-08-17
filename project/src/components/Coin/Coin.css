@@ -1,0 +1,20 @@
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.container .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--c-white);
+  box-shadow: 0px 0px 1px var(--c-table-hover);
+  border: 0.4px solid;
+  margin: 2rem 1rem;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+}
+.container .heading .coin-name {
+  margin-left: -4rem;
+}
+
+/*# sourceMappingURL=Coin.css.map */

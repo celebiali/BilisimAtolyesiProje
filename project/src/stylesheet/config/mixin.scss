@@ -1,0 +1,22 @@
+@mixin mq($width: "tablet"){
+  @if($width == "tablet"){
+    // Medium devices (tablets, 768 and up)
+    @media (min-width: 768px) {
+      @content
+    }
+  }@else if($width == "desktop"){
+    // Medium devices (tablets, 992 and up)
+    @media (min-width: 992px) {
+      @content
+    }
+  }@else if($width == "large"){
+    // Medium devices (tablets, 1200 and up)
+    @media (min-width: 1200px) {
+      @content
+    }
+  }
+}
+
+
+
+
